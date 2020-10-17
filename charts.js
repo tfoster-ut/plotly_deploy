@@ -145,7 +145,7 @@ function buildCharts(sample) {
 
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = {
-      width: 475, 
+      width: 500, 
       height: 450, 
       margin: { t: 0, b: 0 }
     }
