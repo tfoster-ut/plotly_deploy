@@ -6,35 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<!-- <style type="text/css">
-   body { background:black !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
-</style> -->
-
 <body>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center" style="background-image: url(https://tinyurl.com/y3nuuzfh);">
+      <div class="col-md-12 jumbotron text-center" style="background-image: url(https://tinyurl.com/yxjffzv6);">
         <h1 style="color:white;">Belly Button Biodiversity Dashboard</h1>
         <p style="color: white; font-weight: 800;">Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-2">
-        <div class="well" style="background-color:steelblue;">
-          <h5 style="color: white;">Test Subject ID No.:</h5>
+        <div class="card" style="width: 15rem;">
+          <h5>Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Demographic Info</h3>
+        <div class="card" style="width: 15rem;">
+          <div class="card-header">
+            <h5 class="card-title">Demographic Info</h5>
           </div>
-          <div id="sample-metadata" class="panel-body"></div>
+          <div id="sample-metadata" class="card-body"></div>
         </div>
       </div>
       <div class="col-md-5" style="min-height: 0pt;">
